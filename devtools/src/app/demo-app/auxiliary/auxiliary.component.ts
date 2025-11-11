@@ -6,9 +6,10 @@
  * found in the LICENSE file at https://angular.dev/license
  */
 
-import {Version} from '@angular/core';
+import {Component} from '@angular/core';
 
-/**
- * @publicApi
- */
-export const VERSION = /* @__PURE__ */ new Version('0.0.0-PLACEHOLDER');
+@Component({
+  selector: 'app-auxiliary',
+  templateUrl: './auxiliary.component.html',
+})
+export class AuxiliaryComponent {}

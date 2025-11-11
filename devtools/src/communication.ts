@@ -6,9 +6,5 @@
  * found in the LICENSE file at https://angular.dev/license
  */
 
-import {Version} from '@angular/core';
-
-/**
- * @publicApi
- */
-export const VERSION = /* @__PURE__ */ new Version('0.0.0-PLACEHOLDER');
+export const DEVTOOLS_FRONTEND_URI = 'angular-devtools-dev';
+export const DEVTOOLS_BACKEND_URI = 'angular-devtools-dev-backend';
